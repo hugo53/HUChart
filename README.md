@@ -1,5 +1,5 @@
 # HUChart
-HUChart is simple chart library to draw semi-circle chart for some cases which it has a little space to make a full circle chart.
+HUChart is a simple chart library to draw semi-circle chart for some cases which has a LITTLE SPACE to make a full circle chart.
 
 ![SemiCircle Chart](https://dl.dropboxusercontent.com/s/68ezpyu3z0e1wux/semiCircleChartV4.jpg)
 
@@ -61,4 +61,4 @@ pod 'HUChart'
 - Don't be hesitate to send a pull request. 
 
 ## License
-HUChart is released under the MIT License, see LICENSE.
+HUChart is released under the MIT License, see [LICENSE](https://github.com/hugo53/HUChart/blob/master/LICENSE).
