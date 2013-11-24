@@ -48,12 +48,14 @@ The code below shows you how to use this SemiCircleChart. You can customize data
 ```
 
 ## Installation
+<!---
 Two ways:
 - Use CocoaPods
 
 ```ruby
 pod 'HUChart'
 ```
+-->
 
 - Drop \& Drag HUChart folder into your project. It's easy!
 
