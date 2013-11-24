@@ -1,7 +1,9 @@
 # HUChart
 HUChart is a simple chart library to draw semi-circle chart for some cases which has a LITTLE SPACE to make a full circle chart.
 
-![SemiCircle Chart](https://dl.dropboxusercontent.com/s/68ezpyu3z0e1wux/semiCircleChartV4.jpg)
+![SemiCircle Chart Example](https://dl.dropboxusercontent.com/s/u5siul88u80lev8/semiCircleChart_example.png)
+
+![SemiCircle Chart Iphone](https://dl.dropboxusercontent.com/s/68ezpyu3z0e1wux/semiCircleChartV4.jpg)
 
 ## Usage
 The code below shows you how to use this SemiCircleChart. You can customize data, color, chart title and the way text is displayed. 
