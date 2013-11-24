@@ -6,7 +6,7 @@ HUChart is a simple chart library to draw semi-circle chart for some cases which
 ![SemiCircle Chart Iphone](https://dl.dropboxusercontent.com/s/885h1mzpqh05k1z/semiCircleChartIphoneV6.jpg)
 
 ## Features
-- Semi-circle chart (half pie chart) as an UI Component. Easy to custom a suitable semi-circle chart without any struggle.
+- Semi-circle chart (half pie chart) as an UIView Component. Easy to custom a suitable semi-circle chart without any struggle.
 - Support iOS 6.1+
 - Support ARC
 
