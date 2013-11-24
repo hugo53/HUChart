@@ -64,7 +64,9 @@ pod 'HUChart'
 
 - Drop \& Drag HUChart folder into your project. It's easy!
 
-    Pod: pull request is in waiting list. 
+```
+Pod: pull request is in waiting list. 
+```
 
 ## Contribution
 - This work is happened thanks to an idea from [Dao-Thai Nguyen](https://www.facebook.com/profile.php?id=1566842679).
