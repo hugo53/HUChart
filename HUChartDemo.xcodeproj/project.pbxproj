@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668474061841BE3500EF13BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474051841BE3500EF13BE /* Foundation.framework */; };
+		668474081841BE3500EF13BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474071841BE3500EF13BE /* CoreGraphics.framework */; };
+		6684740A1841BE3500EF13BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474091841BE3500EF13BE /* UIKit.framework */; };
+		668474101841BE3500EF13BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6684740E1841BE3500EF13BE /* InfoPlist.strings */; };
+		668474121841BE3500EF13BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668474111841BE3500EF13BE /* main.m */; };
+		668474161841BE3500EF13BE /* HUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 668474151841BE3500EF13BE /* HUAppDelegate.m */; };
+		668474181841BE3500EF13BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668474171841BE3500EF13BE /* Images.xcassets */; };
+		6684741F1841BE3500EF13BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6684741E1841BE3500EF13BE /* XCTest.framework */; };
+		668474201841BE3500EF13BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474051841BE3500EF13BE /* Foundation.framework */; };
+		668474211841BE3500EF13BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474091841BE3500EF13BE /* UIKit.framework */; };
+		668474291841BE3500EF13BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668474271841BE3500EF13BE /* InfoPlist.strings */; };
+		6684742B1841BE3500EF13BE /* HUChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684742A1841BE3500EF13BE /* HUChartDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668474221841BE3500EF13BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668473FA1841BE3500EF13BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668474011841BE3500EF13BE;
+			remoteInfo = HUChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		668474021841BE3500EF13BE /* HUChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668474051841BE3500EF13BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		668474071841BE3500EF13BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		668474091841BE3500EF13BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6684740D1841BE3500EF13BE /* HUChartDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUChartDemo-Info.plist"; sourceTree = "<group>"; };
+		6684740F1841BE3500EF13BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		668474111841BE3500EF13BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		668474131841BE3500EF13BE /* HUChartDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUChartDemo-Prefix.pch"; sourceTree = "<group>"; };
+		668474141841BE3500EF13BE /* HUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUAppDelegate.h; sourceTree = "<group>"; };
+		668474151841BE3500EF13BE /* HUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAppDelegate.m; sourceTree = "<group>"; };
+		668474171841BE3500EF13BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6684741D1841BE3500EF13BE /* HUChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6684741E1841BE3500EF13BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		668474261841BE3500EF13BE /* HUChartDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUChartDemoTests-Info.plist"; sourceTree = "<group>"; };
+		668474281841BE3500EF13BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6684742A1841BE3500EF13BE /* HUChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUChartDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668473FF1841BE3500EF13BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668474081841BE3500EF13BE /* CoreGraphics.framework in Frameworks */,
+				6684740A1841BE3500EF13BE /* UIKit.framework in Frameworks */,
+				668474061841BE3500EF13BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6684741A1841BE3500EF13BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6684741F1841BE3500EF13BE /* XCTest.framework in Frameworks */,
+				668474211841BE3500EF13BE /* UIKit.framework in Frameworks */,
+				668474201841BE3500EF13BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668473F91841BE3400EF13BE = {
+			isa = PBXGroup;
+			children = (
+				6684740B1841BE3500EF13BE /* HUChartDemo */,
+				668474241841BE3500EF13BE /* HUChartDemoTests */,
+				668474041841BE3500EF13BE /* Frameworks */,
+				668474031841BE3500EF13BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668474031841BE3500EF13BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668474021841BE3500EF13BE /* HUChartDemo.app */,
+				6684741D1841BE3500EF13BE /* HUChartDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668474041841BE3500EF13BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668474051841BE3500EF13BE /* Foundation.framework */,
+				668474071841BE3500EF13BE /* CoreGraphics.framework */,
+				668474091841BE3500EF13BE /* UIKit.framework */,
+				6684741E1841BE3500EF13BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6684740B1841BE3500EF13BE /* HUChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				668474141841BE3500EF13BE /* HUAppDelegate.h */,
+				668474151841BE3500EF13BE /* HUAppDelegate.m */,
+				668474171841BE3500EF13BE /* Images.xcassets */,
+				6684740C1841BE3500EF13BE /* Supporting Files */,
+			);
+			path = HUChartDemo;
+			sourceTree = "<group>";
+		};
+		6684740C1841BE3500EF13BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6684740D1841BE3500EF13BE /* HUChartDemo-Info.plist */,
+				6684740E1841BE3500EF13BE /* InfoPlist.strings */,
+				668474111841BE3500EF13BE /* main.m */,
+				668474131841BE3500EF13BE /* HUChartDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		668474241841BE3500EF13BE /* HUChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6684742A1841BE3500EF13BE /* HUChartDemoTests.m */,
+				668474251841BE3500EF13BE /* Supporting Files */,
+			);
+			path = HUChartDemoTests;
+			sourceTree = "<group>";
+		};
+		668474251841BE3500EF13BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				668474261841BE3500EF13BE /* HUChartDemoTests-Info.plist */,
+				668474271841BE3500EF13BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668474011841BE3500EF13BE /* HUChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6684742E1841BE3500EF13BE /* Build configuration list for PBXNativeTarget "HUChartDemo" */;
+			buildPhases = (
+				668473FE1841BE3500EF13BE /* Sources */,
+				668473FF1841BE3500EF13BE /* Frameworks */,
+				668474001841BE3500EF13BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUChartDemo;
+			productName = HUChartDemo;
+			productReference = 668474021841BE3500EF13BE /* HUChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6684741C1841BE3500EF13BE /* HUChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668474311841BE3500EF13BE /* Build configuration list for PBXNativeTarget "HUChartDemoTests" */;
+			buildPhases = (
+				668474191841BE3500EF13BE /* Sources */,
+				6684741A1841BE3500EF13BE /* Frameworks */,
+				6684741B1841BE3500EF13BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668474231841BE3500EF13BE /* PBXTargetDependency */,
+			);
+			name = HUChartDemoTests;
+			productName = HUChartDemoTests;
+			productReference = 6684741D1841BE3500EF13BE /* HUChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668473FA1841BE3500EF13BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AugoLab;
+				TargetAttributes = {
+					6684741C1841BE3500EF13BE = {
+						TestTargetID = 668474011841BE3500EF13BE;
+					};
+				};
+			};
+			buildConfigurationList = 668473FD1841BE3500EF13BE /* Build configuration list for PBXProject "HUChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 668473F91841BE3400EF13BE;
+			productRefGroup = 668474031841BE3500EF13BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668474011841BE3500EF13BE /* HUChartDemo */,
+				6684741C1841BE3500EF13BE /* HUChartDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668474001841BE3500EF13BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668474101841BE3500EF13BE /* InfoPlist.strings in Resources */,
+				668474181841BE3500EF13BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6684741B1841BE3500EF13BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668474291841BE3500EF13BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668473FE1841BE3500EF13BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668474121841BE3500EF13BE /* main.m in Sources */,
+				668474161841BE3500EF13BE /* HUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668474191841BE3500EF13BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6684742B1841BE3500EF13BE /* HUChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668474231841BE3500EF13BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668474011841BE3500EF13BE /* HUChartDemo */;
+			targetProxy = 668474221841BE3500EF13BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6684740E1841BE3500EF13BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6684740F1841BE3500EF13BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		668474271841BE3500EF13BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668474281841BE3500EF13BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6684742C1841BE3500EF13BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6684742D1841BE3500EF13BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6684742F1841BE3500EF13BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUChartDemo/HUChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		668474301841BE3500EF13BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUChartDemo/HUChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		668474321841BE3500EF13BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUChartDemo.app/HUChartDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HUChartDemoTests/HUChartDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		668474331841BE3500EF13BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUChartDemo.app/HUChartDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUChartDemoTests/HUChartDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668473FD1841BE3500EF13BE /* Build configuration list for PBXProject "HUChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6684742C1841BE3500EF13BE /* Debug */,
+				6684742D1841BE3500EF13BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6684742E1841BE3500EF13BE /* Build configuration list for PBXNativeTarget "HUChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6684742F1841BE3500EF13BE /* Debug */,
+				668474301841BE3500EF13BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		668474311841BE3500EF13BE /* Build configuration list for PBXNativeTarget "HUChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668474321841BE3500EF13BE /* Debug */,
+				668474331841BE3500EF13BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668473FA1841BE3500EF13BE /* Project object */;
+}
