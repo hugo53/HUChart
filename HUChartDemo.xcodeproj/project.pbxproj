@@ -19,6 +19,9 @@
 		668474211841BE3500EF13BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668474091841BE3500EF13BE /* UIKit.framework */; };
 		668474291841BE3500EF13BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668474271841BE3500EF13BE /* InfoPlist.strings */; };
 		6684742B1841BE3500EF13BE /* HUChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684742A1841BE3500EF13BE /* HUChartDemoTests.m */; };
+		668474391841BE9100EF13BE /* HUChartEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 668474361841BE9100EF13BE /* HUChartEntry.m */; };
+		6684743A1841BE9100EF13BE /* HUSemiCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 668474381841BE9100EF13BE /* HUSemiCircleChart.m */; };
+		6684743D1841BEC600EF13BE /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684743C1841BEC600EF13BE /* HUViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		668474261841BE3500EF13BE /* HUChartDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUChartDemoTests-Info.plist"; sourceTree = "<group>"; };
 		668474281841BE3500EF13BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6684742A1841BE3500EF13BE /* HUChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUChartDemoTests.m; sourceTree = "<group>"; };
+		668474351841BE9100EF13BE /* HUChartEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUChartEntry.h; path = HUChart/HUChartEntry.h; sourceTree = "<group>"; };
+		668474361841BE9100EF13BE /* HUChartEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUChartEntry.m; path = HUChart/HUChartEntry.m; sourceTree = "<group>"; };
+		668474371841BE9100EF13BE /* HUSemiCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUSemiCircleChart.h; path = HUChart/HUSemiCircleChart.h; sourceTree = "<group>"; };
+		668474381841BE9100EF13BE /* HUSemiCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUSemiCircleChart.m; path = HUChart/HUSemiCircleChart.m; sourceTree = "<group>"; };
+		6684743B1841BEC600EF13BE /* HUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		6684743C1841BEC600EF13BE /* HUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,7 @@
 		668473F91841BE3400EF13BE = {
 			isa = PBXGroup;
 			children = (
+				668474341841BE5200EF13BE /* HUChart */,
 				6684740B1841BE3500EF13BE /* HUChartDemo */,
 				668474241841BE3500EF13BE /* HUChartDemoTests */,
 				668474041841BE3500EF13BE /* Frameworks */,
@@ -107,6 +117,8 @@
 		6684740B1841BE3500EF13BE /* HUChartDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6684743B1841BEC600EF13BE /* HUViewController.h */,
+				6684743C1841BEC600EF13BE /* HUViewController.m */,
 				668474141841BE3500EF13BE /* HUAppDelegate.h */,
 				668474151841BE3500EF13BE /* HUAppDelegate.m */,
 				668474171841BE3500EF13BE /* Images.xcassets */,
@@ -142,6 +154,17 @@
 				668474271841BE3500EF13BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		668474341841BE5200EF13BE /* HUChart */ = {
+			isa = PBXGroup;
+			children = (
+				668474351841BE9100EF13BE /* HUChartEntry.h */,
+				668474361841BE9100EF13BE /* HUChartEntry.m */,
+				668474371841BE9100EF13BE /* HUSemiCircleChart.h */,
+				668474381841BE9100EF13BE /* HUSemiCircleChart.m */,
+			);
+			name = HUChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6684743D1841BEC600EF13BE /* HUViewController.m in Sources */,
 				668474121841BE3500EF13BE /* main.m in Sources */,
+				6684743A1841BE9100EF13BE /* HUSemiCircleChart.m in Sources */,
 				668474161841BE3500EF13BE /* HUAppDelegate.m in Sources */,
+				668474391841BE9100EF13BE /* HUChartEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
 				INFOPLIST_FILE = "HUChartDemo/HUChartDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -378,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HUChartDemo/HUChartDemo-Prefix.pch";
 				INFOPLIST_FILE = "HUChartDemo/HUChartDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
