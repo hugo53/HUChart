@@ -56,7 +56,7 @@ pod 'HUChart'
 - Drop \& Drag HUChart folder into your project. It's easy!
 
 ## Contribution
-- This work is happened thanks to an idea from Dao-Thai Nguyen.
+- This work is happened thanks to an idea from [Dao-Thai Nguyen](https://www.facebook.com/profile.php?id=1566842679).
 
 - Don't be hesitate to send a pull request. 
 
