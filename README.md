@@ -7,12 +7,18 @@ HUChart is a simple chart library for iOS to draw semi-circle chart for some cas
 
 > Data for above charts is owned by [http://www.w3schools.com/browsers/browsers_stats.asp](http://www.w3schools.com/browsers/browsers_stats.asp)
 
-## Features
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Features {#features}
 - Semi-circle chart (half pie chart) as an UIView Component. Easy to custom a suitable semi-circle chart without any struggle.
 - Support iOS 6.1+
 - Support ARC
 
-## Usage
+## Usage {#usage}
 The code below shows you how to use this SemiCircleChart. You can customize data, color, chart title and the way text is displayed. 
 
 ```objective-c
@@ -54,7 +60,7 @@ The code below shows you how to use this SemiCircleChart. You can customize data
     semiCircleChart.showPortionTextType = SHOW_PORTION_TEXT;
 ```
 
-## Installation
+## Installation {#installation}
 Two ways:
 - Use CocoaPods
 
@@ -66,10 +72,10 @@ pod 'HUChart'
 
 - Drop \& Drag HUChart folder into your project. It's easy!
 
-## Contribution
+## Contribution {#contribution}
 - This work is happened thanks to an idea from [Dao-Thai Nguyen](https://www.facebook.com/profile.php?id=1566842679).
 
-- Don't be hesitate to send a pull request. 
+- Don't hesitate to send a pull request or open an issue if you want me to improve something.
 
-## License
+## License {#license}
 HUChart is released under the MIT License, see [LICENSE](https://github.com/hugo53/HUChart/blob/master/LICENSE).
