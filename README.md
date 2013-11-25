@@ -1,5 +1,5 @@
 # HUChart
-HUChart is a simple chart library to draw semi-circle chart for some cases which has a LITTLE SPACE to make a full circle chart.
+HUChart is a simple chart library for iOS to draw semi-circle chart for some cases which has a LITTLE SPACE to make a full circle chart.
 
 ![SemiCircle Chart Example](https://dl.dropboxusercontent.com/s/u5siul88u80lev8/semiCircleChart_example.png)
 
