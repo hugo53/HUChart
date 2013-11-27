@@ -68,8 +68,8 @@ pod 'HUChart'
 - Drop \& Drag HUChart folder into your project. It's easy!
 
 ## Contribution 
-- This work is happened thanks to an idea from [Dao-Thai Nguyen](https://www.facebook.com/profile.php?id=1566842679).
-
+- This work is happened thanks to an idea from [Dao-Thai Nguyen](https://www.facebook.com/profile.php?id=1566842679). He also gave me some precious advice to accomplish HUChart.
+- By spreading this hub, [Van-Tam Nguyen](https://github.com/VanTamNguyen), [Duy-Thanh Le](https://github.com/yoyo158), [Ngoc-Linh Le](https://github.com/mrleolink) helped the hub reach to more people, so it may help someone. Thanks for their job!
 - Don't hesitate to send a pull request or open an issue if you want me to improve something.
 
 ## License 
