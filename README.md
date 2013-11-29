@@ -74,3 +74,7 @@ pod 'HUChart'
 
 ## License 
 HUChart is released under the MIT License, see [LICENSE](https://github.com/hugo53/HUChart/blob/master/LICENSE).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hugo53/huchart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
