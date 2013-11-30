@@ -13,6 +13,12 @@ HUChart is a simple chart library for iOS to draw semi-circle chart for some cas
 - Support iOS 6.1+
 - Support ARC
 
+#### TO-DO
+- Support Touchable
+- Support Slice Position Editable, i.e drag \& drop slice to rearrange slice order
+- Support Data Updateable, i.e: change portion of specific slice or add slice
+- 
+
 ## Usage 
 The code below shows you how to use this SemiCircleChart. You can customize data, color, chart title and the way text is displayed. 
 
