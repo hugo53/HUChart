@@ -15,6 +15,7 @@
 @synthesize title;
 @synthesize showChartTitle;
 @synthesize showPortionTextType;
+@synthesize fontName;
 
 -(id) init{
     self = [super init];
@@ -137,7 +138,14 @@
 
     // Draw title if it is set
     if (self.showChartTitle) {
-        UIFont *font = [UIFont boldSystemFontOfSize:r/4];
+        UIFont *font = nil;
+        
+        if (fontName) {
+            font = [UIFont fontWithName:fontName size:r/4];
+        } else {
+            font = [UIFont boldSystemFontOfSize:r/4];
+        }
+    
         [self drawText:self.title
               withFont:font withColor:[UIColor blackColor]
              inContext:context inRect:CGRectMake(R-r*sqrt(3)/2,
@@ -227,7 +235,13 @@
                   origin:(CGPoint)origin R:(float)R r:(float)r
               startAngle:(float)startAngle endAngle:(float)endAngle {
 
-    UIFont *font = [UIFont boldSystemFontOfSize:r/4];
+    UIFont *font = nil;
+    if (fontName) {
+        font = [UIFont fontWithName:fontName size:r/4];
+    } else {
+        font = [UIFont boldSystemFontOfSize:r/4];
+    }
+
 
     NSString *portionValueText;
     if ([portionValue isKindOfClass:[NSNumber class]]) {
@@ -266,7 +280,15 @@
     if (rect.size.height < rect.size.width/2.0) {
         [[UIColor yellowColor]set];
         UIRectFill([self bounds]);
-        UIFont *font = [UIFont boldSystemFontOfSize:MIN(rect.size.width/25.0, 12)];
+        
+        UIFont *font = nil;
+        if (fontName) {
+            font = [UIFont fontWithName:fontName size:MIN(rect.size.width/25.0, 12)];
+        } else {
+            font = [UIFont boldSystemFontOfSize:MIN(rect.size.width/25.0, 12)];
+        }
+
+        
         [self drawText: @"Cannot draw because rect height is too small."
                         @"\nPlease sure that rect height >= rect width/2"
               withFont:font withColor:[UIColor blackColor]
