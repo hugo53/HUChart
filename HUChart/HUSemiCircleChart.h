@@ -28,5 +28,6 @@ typedef enum showTextType
 @property (nonatomic) NSString *title;                  // Chart title
 @property (nonatomic) ShowTextType showPortionTextType; // Show text/value/nothing for each portion. Default=SHOW_PORTION_TEXT
 @property (assign) BOOL showChartTitle;                 // Show chart title (Default:YES)
+@property (nonatomic) NSString *fontName;               // Name of the font you would like to use (Optional)
 
 @end
